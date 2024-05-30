@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #856e50ad;
+    color: #333;
+    padding-bottom: 160px;
+}
+
+header {
+    background-color: #da903156;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    background-color: #e1e293a6;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #b4c984;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #005a9c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#portfolio a {
+    background-color: #c3c78960;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: calc(50% - 20px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+#portfolio a:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    height: 4%;
+}
+
+
+body {
+    padding-top: 50px; 
+}
